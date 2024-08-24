@@ -9,7 +9,7 @@ pipeline{
                 sh 'cat ./createpassword.py' // no output
         }
     }
-        stage('test') {
+        stage('test') { //  for test
             steps {
                 sh 'echo done' 
         }
